@@ -1,0 +1,115 @@
+
+
+button  {
+    height: 180px;
+    width: 180x;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: -webkit-fill-available;
+}
+
+.crystalContainer {
+    display: flex;
+    align-items: center;
+    padding-top: 300px;
+
+}
+
+.guessContainer {
+    position: absolute;
+    margin-top: 20px;
+    
+}
+
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+h1,
+h6 {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    line-height: 70px;
+    display: flex;
+    justify-content: center;
+
+}   
+
+#user-guess-total, #win-total, #loss-total  {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    
+}
+
+h2 {
+    font-size: 27px;
+    line-height: 39px;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-style: italic;
+    color: black;
+    padding-top: 15px;
+    font-family: Trattatello, fantasy;
+}
+
+#number-match {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    padding-top: 22px;
+
+}
